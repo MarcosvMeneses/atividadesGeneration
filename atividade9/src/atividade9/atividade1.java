@@ -24,7 +24,7 @@ public class atividade1 {
                 if (posicao != -1) {
                     System.out.println("O número " + numero + " está localizado na posição: " + posicao);
                 } else {
-                    System.out.println("O número " + numero + "	não foi encontrado");
+                    System.out.println("O número " + numero + " não foi encontrado");
                 }
             } catch (NumberFormatException e) {
                 System.out.println("Por favor, digite um número válido ou 'sair' para terminar.");
